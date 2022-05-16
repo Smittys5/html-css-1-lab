@@ -1,0 +1,32 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    background-color: rgb(58, 70, 45);
+    color: white;
+    padding: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+section > img {
+    object-fit: cover;
+    margin: 90px;
+    margin-left: 20cm;
+    width: fit-content;
+    border: black 2px solid;
+}
+
+section button {
+    padding:10px 15px;
+    border-radius:20px;
+    border:none;
+    background-color: rgb(9, 224, 67);
+    color: black;
+}
+
